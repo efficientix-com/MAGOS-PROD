@@ -1,4 +1,9 @@
 <manifest projecttype="ACCOUNTCUSTOMIZATION">
   <projectname>MAGOS-PROD</projectname>
   <frameworkversion>1.0</frameworkversion>
+  <dependencies>
+    <features>
+      <feature required="true">ADVANCEDPRINTING</feature>
+    </features>
+  </dependencies>
 </manifest>
