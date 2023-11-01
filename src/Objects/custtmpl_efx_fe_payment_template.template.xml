@@ -415,9 +415,6 @@
                         <td font-size="8pt"><b>Versión Comprobante</b></td>
                         <td font-size="8pt">${record.customer.custentity_efx_fe_version?keep_after(" ")}</td>
                     </tr><tr>
-                        <td font-size="8pt"><b>Moneda</b></td>
-                        <td font-size="8pt">XXX</td>
-                    </tr><tr>
                         <td font-size="8pt"><b>No. Certificado CFDI</b></td>
                         <#if certData?has_content>
                             <td font-size="8pt">${certData.custbody_mx_cfdi_issuer_serial}</td>

@@ -1800,7 +1800,7 @@
                     <#assign reg_fiscal = "606 - Arrendamiento">
                     <td colspan="2" style="font-size: 7pt;">${reg_fiscal?upper_case}</td>
                 <#elseif dataXML.Emisor.atributos.RegimenFiscal?keep_before(" ") == "607">
-                    <<#assign reg_fiscal = "607 - Régimen de Enajenación o Adquisición de Bienes">
+                    <#assign reg_fiscal = "607 - Régimen de Enajenación o Adquisición de Bienes">
                     <td colspan="2" style="font-size: 7pt;">${reg_fiscal?upper_case}</td>
                 <#elseif dataXML.Emisor.atributos.RegimenFiscal?keep_before(" ") == "608">
                     <#assign reg_fiscal = "608 - Demás ingresos">
